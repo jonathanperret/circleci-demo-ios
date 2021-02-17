@@ -6,7 +6,7 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "Game.xcodeproj/project.xcworkspace"
+                XCODE_WORKSPACE: "Game.xcodeproj/project"
                 XCODE_SCHEME: "Game"
             xcode: latest
             cocoapods: default
